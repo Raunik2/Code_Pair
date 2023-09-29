@@ -1,48 +1,79 @@
-## Code Pair 
+# Code-Pair
 
-### Description 
+## Overview
 
-💻 Code Pair is a real-time code Editor and a collaboration tool built with React, Node, Express, and Socket.io. It uses web sockets for syncing code and setting up connections between client and server. 
+Code Pair is a web-based application that enables multiple users to collaborate in real time on code editing. It offers a seamless and interactive environment for developers, students, or teams to work on code together and observe each other's changes instantly.
 
-A user can create a new room, share room ID with other peers, and work on code in real-time. The Editor has syntax highlighting, indentation, autocomplete and brace matching functionality. 
+## Features
 
-### Deployment 🌐
+- Real-time code editing with live synchronization.
+- Multi-user support for collaborative coding.
+- Code highlighting and auto-indentation.
+- User-friendly chat interface for communication.
+- Room creation and joining with unique room IDs.
+- Notification system for important events.
 
-Project is deployed on Heroku, Link to Project - <a href="https://realtime-codepair.herokuapp.com/">Code Pair</a>
+## Table of Contents
 
-### Usage 
+- [Demo](#demo)
+- [Screenshots](#screenshots)
+- [Getting Started](#getting-started)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
 
-For Setting up the project 
+## Demo
 
->  Clone the repository 
+You can try the application live at [Demo Link](#) <!-- Add a link to your live demo once it's hosted online -->
 
-  `git clone <URL>`
-  
->  Add Environment Variables in the .env file 
+## Screenshots
 
-Add the .env file in the root directory. 
+<!-- Include screenshots or GIFs of your application in action (if applicable) -->
 
-```
-REACT_APP_BACKEND_URL=http://localhost:5000/
-```
+## Getting Started
 
-> Install all the packages 
+Follow these steps to set up and run the project locally:
 
-```
-npm install 
-```
+1. Clone the repository:
 
-> To start-server - 
+   ```bash
+    git clone https://github.com/your-username/real-time-code-editor.git
 
-``` 
-npm start
-```
+2. Navigate to the project directory:
+   
+   ```bash
+   cd real-time-code-editor
 
-Open the App on `http://localhost:5000/`
- 
-### Tech Stack / Tools Used : 
- 
-- Reactjs 
-- Nodejs 
-- Express 
-- Socket.io 
+4. Install dependencies:
+   
+   ```bash
+   npm install
+
+6. Start the application:
+   
+   ```bash
+   npm start
+   
+7. Open your web browser and navigate to the following URL:
+   
+   ```bash
+   http://localhost:5000
+
+8. Create a new room or join an existing room with a unique Room ID:
+9. Collaborate with others in real time by editing code and using the chat interface.
+10. Enjoy seamless code editing and communication!
+
+## Technologies Used
+- React
+- Socket.io
+- CodeMirror
+- react-hot-toast
+- uuid
+
+## Contributing
+Contributions are welcome! To contribute to this project:
+
+- Fork the repository.
+- Create a new branch for your feature or bug fix.
+- Make your changes and commit them.
+- Push your changes to your fork.
+- Open a pull request with a clear title and description.
