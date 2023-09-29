@@ -21,10 +21,6 @@ Code Pair is a web-based application that enables multiple users to collaborate 
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
 
-## Demo
-
-You can try the application live at [Demo Link](#) <!-- Add a link to your live demo once it's hosted online -->
-
 ## Screenshots
 
 <!-- Include screenshots or GIFs of your application in action (if applicable) -->
