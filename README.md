@@ -15,7 +15,6 @@ Code Pair is a web-based application that enables multiple users to collaborate 
 
 ## Table of Contents
 
-- [Demo](#demo)
 - [Screenshots](#screenshots)
 - [Getting Started](#getting-started)
 - [Technologies Used](#technologies-used)
